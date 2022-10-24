@@ -143,13 +143,8 @@
 
   @media only screen and (max-width: 600px) {
     .container {
-      padding: 15px;
       display: block;
-      
-    }
-
-    .main-section{
-      padding: 15px;
+      padding: 0;
     }
     .left-sidebar{
       display: none;
@@ -174,11 +169,18 @@
       padding: 20px;
      
     }
+
+    .main-section{
+      padding: 10px;
+    }
     .section{
       grid-template-columns: auto auto;
+      padding: 0;
     }
     .imageContainer img{
       width: 170px;
+      display: block;
+      margin: 0 auto;
     }
   }
 
