@@ -107,6 +107,11 @@
     border-bottom: 1px solid black;
   }
 
+input:focus{
+  outline: none;
+}
+
+
   .search-button{
     border: none;
     outline: none;
